@@ -8,7 +8,7 @@ namespace student_record_system
 {
     public partial class Form1 : Form
     {
-        string connectionString = "server=localhost;port=3307;database=student_db;uid=root;pwd=;";
+        string connectionString = "server=localhost;port=3306;database=student_db;uid=root;pwd=;";
         string selectedStudentId = "";
 
         public Form1()
